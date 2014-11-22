@@ -1,3 +1,4 @@
+#' Test documentation
 svar <- function(ts, p, lambda = NULL, cv.lambda = TRUE, verbose = TRUE,
                  method = c("lm", "ols", "olsl2", "l1.ls", "l1.ll"), 
                  type = c("none", "const", "trend", "both"),
