@@ -1,9 +1,7 @@
-library(testthat)
-
 # Test on simulated data.
 # Orcale: vars::VAR(p) model
 
-context("Simulated data: n.timeseries = 3")
+context("Simulated data")
 
 ### Generate n = 500 x p = 3 multivariate time-series
 N <- 300

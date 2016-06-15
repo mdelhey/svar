@@ -3,14 +3,15 @@ Title: sparse vector autoregression model
 Version: 0.1
 Authors@R: "Matt Delhey <matt.delhey@gmail.com> [aut, cre]"
 Description: What the package does (one paragraph)
-Depends:
+Depends: 
     R (>= 3.1.2)
 License: What license is it under?
 LazyData: true
-Imports:
+Imports: 
     mAr,
     vars,
     glmnet,
     doMC,
     parallel,
     testthat
+Suggests: testthat
